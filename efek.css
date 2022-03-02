@@ -1,0 +1,146 @@
+body{
+    font: monospace;
+    font-size: 12px;
+    color: #fcfbfd;
+    background-color: #8daef3; 
+    background-image: url("Background.png");
+    background-size: cover;
+    height: 800px;
+    position: relative;
+   }
+.header ul {
+    list-style: none;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 2px;
+    overflow: hidden;
+    border-bottom: 2px solid;
+    color: #8daef3;
+}
+.header ul li{
+    float: right;
+    margin-bottom: 5px;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+.header ul li a{ 
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #8daef3;
+    text-decoration: none;
+}
+.header ul li a:hover{
+    text-decoration: underline;
+}
+
+#HOME img{
+    width: 150;
+    height: 150;
+    border-radius: 80%; 
+}
+#HOME{
+    text-align: center;
+    font-family: georgia;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+#HOME .opening  {
+    text-align: left;
+    font-size: 20px;
+    font-family: monospace;
+    padding-left: 6px;
+    color: #8daef3;
+}
+#EDU .title {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    padding-top: 20px;
+    color: #8daef3;
+}
+#EDU{
+    text-align: center;
+    font-family: georgia;
+    font-size: 12px; 
+    margin-bottom: 100px;
+}
+.sekolah{
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.daftar-sekolah{
+    width: 20%;
+    margin: 30px auto;
+}
+.daftar-sekolah img{
+    width: 80%;
+    border-radius: 50%;
+}
+#JADWAL .title {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    padding-top: 20px;
+    color: #8daef3;
+}
+#JADWAL{
+    text-align: center;
+    font-family: georgia;
+    font-size: 12px; 
+    margin-bottom: 100px;
+}
+TH{
+    color : white; background-color : #336699; border-width: 1px;
+    border-style: solid; border-color: #8daef3; font-size: 9pt; 
+}
+TD{
+    color: black;
+    background-color: #E6E6FA; border-width: 1px;
+    border-style:solid; border-color: #8daef3; font-size: 9pt; text-align: center; font-family: georgia;
+}
+#ACT .title {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    padding-top: 20px;
+    color: #8daef3;
+}
+#ACT{
+    text-align: center;
+    font-family: georgia;
+    font-size: 12px; 
+    margin-bottom: 100px;
+}
+#PRT .title {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    padding-top: 20px;
+    color: #8daef3;
+}
+#PRT{
+    text-align: center;
+    font-family: georgia;
+    font-size: 12px; 
+    margin-bottom: 100px;
+}
+.porto{
+    width: 80%;
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.daftar-prt{
+    width: 30%;
+    margin: 30px auto;
+}
+.daftar-prt img{
+    width: 80%;
+}
